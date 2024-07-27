@@ -3,6 +3,7 @@
 
 # Ensure specific file types use LF or CRLF line endings
 *.json text eol=lf
+*.md text eol=lf
+*.meta text eol=lf
+*.cs text eol=lf
 *.bat text eol=crlf
-*.sh text eol=lf* text=auto
-
