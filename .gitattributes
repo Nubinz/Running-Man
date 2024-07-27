@@ -1,9 +1,7 @@
-na# Automatically handle line endings for text files
+# Automatically handle line endings for text files
 * text=auto
 
 # Ensure specific file types use LF or CRLF line endings
 *.json text eol=lf
 *.bat text eol=crlf
-*.sh text eol=lf
-
-
+*.sh text eol=lf* text=auto
